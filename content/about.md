@@ -25,6 +25,6 @@ imm3rsively is the conference for people who suspect the future of education has
 
 4) focus
 
+  - facilitated reflection
   - space designed for engagement
   - full time, part time, remote commitments possible
-  - facilitated reflection
