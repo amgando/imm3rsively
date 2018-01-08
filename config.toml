@@ -1,4 +1,4 @@
-title = "imm3rsively conference"
+title = "imm3rsively"
 baseURL = "http://imm3rsively.com/"
 tags = ["education", "conference", "learning"]
 languageCode = "en-US"
@@ -9,16 +9,16 @@ googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
-    tagline = "equitable education for everyone"
+    tagline = "effective, equitable education"
     author = "Sherif Abushadi"
     description = "the conference for people who suspect the future of education has arrived"
-    logoBig = "/images/imm3rsively-logo.png"
-    logoSmall = "/images/imm3rsively-logo.png"
+    logoBig = "/images/logo.png"
+    logoSmall = "/images/logo.png"
     favicon = "favicon.ico"
-    opengraphImage = "/images/imm3rsively-logo.png"
-    twitter = "imm3rsively"
-    linkedin = "imm3rsively"
-    github = "imm3rsively"
+    opengraphImage = "/images/logo.png"
+    # twitter = "imm3rsively"
+    # linkedin = "imm3rsively"
+    # github = "imm3rsively"
     email = "hello@imm3rsively.com"
     googleTagManager = ""
     highlightJS = true
@@ -34,12 +34,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
     url  = "/#about"
     weight = 1
 [[menu.main]]
-    name = "Tickets"
-    url  = "/#tickets"
-    weight = 2
-[[menu.main]]
     name = "People"
     url  = "/#people"
+    weight = 2
+[[menu.main]]
+    name = "Tickets"
+    url  = "/#tickets"
     weight = 3
 [[menu.main]]
     name = "Contact"
