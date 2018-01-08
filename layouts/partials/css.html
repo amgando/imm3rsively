@@ -1,0 +1,202 @@
+<style>
+* {
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  color: #50514F; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
+body {
+  font-size: 1.25rem;
+  font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+  line-height: 1.6;
+  color: #50514F; }
+  @media (max-width: 48em) {
+    body {
+      font-size: 1.25rem; } }
+  @media (max-width: 25em) {
+    body {
+      font-size: 1.1rem; } }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #50514F; } }
+
+.nav-full {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  right: -100vw;
+  height: 100%;
+  background-color: #50514F;
+  transform: translate(0px, 0px);
+  transition: 0.25s ease-out; }
+  .nav-full a {
+    color: #FFF; }
+    .nav-full a:hover {
+      color: #F25F5C; }
+
+a {
+  text-decoration: none;
+  transition: color .2s ease-out; }
+  a img {
+    border: none; }
+  a:hover {
+    color: #F25F5C; }
+
+pre {
+  font: 12px "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+  background-color: #F7F7F7;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  word-wrap: normal;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace; }
+  pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0; }
+  pre code {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0; }
+  pre code::before, pre code::after {
+    content: normal; }
+
+code {
+  font-family: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace;
+  font-size: 90%;
+  background-color: #F7F7F7;
+  padding: 4px; }
+
+blockquote:before, blockquote:after {
+  font-family: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
+  content: '\201C';
+  font-size: 35px;
+  color: #F25F5C; }
+
+.sub-header, time {
+  font-size: 1.25rem;
+  color: #247BA0;
+  margin-bottom: 2rem; }
+  @media (max-width: 48em) {
+    .sub-header, time {
+      font-size: 1.25rem; } }
+  @media (max-width: 25em) {
+    .sub-header, time {
+      font-size: 1.1rem; } }
+
+.content {
+  text-align: left;
+  width: 100%; }
+  .content time {
+    margin-left: 3px; }
+  .content a {
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
+    background-image: linear-gradient(#F25F5C, #F25F5C);
+    background-size: 1px 2px;
+    background-repeat: repeat-x;
+    background-position: 0 95%;
+    text-decoration: none; }
+    .content a:hover {
+      color: #F25F5C; }
+
+.about {
+  width: 100%;
+  background-color: #F7F7F7;
+  padding-bottom: 4rem; }
+  .about p {
+    font-size: 1.666rem;
+    margin-top: 2rem; }
+    @media (max-width: 48em) {
+      .about p {
+        font-size: 1.563rem; } }
+    @media (max-width: 25em) {
+      .about p {
+        font-size: 1.375rem; } }
+  .about a {
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
+    background-image: linear-gradient(#F25F5C, #F25F5C);
+    background-size: 2px 3px;
+    background-repeat: repeat-x;
+    background-position: 0 95%;
+    text-decoration: none; }
+    .about a:hover {
+      color: #F25F5C; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease-out;
+  background-color: #50514F; }
+  .overlay a {
+    color: #FFF; }
+    .overlay a:hover {
+      color: #F25F5C; }
+  .overlay h2 {
+    color: #FFF; }
+  .overlay h3 {
+    font-family: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif; }
+
+.contact {
+  width: 100%;
+  background-color: #F7F7F7;
+  padding-bottom: 4rem; }
+  .contact form {
+    margin-top: 2rem; }
+  .contact #form-thankyou {
+    margin: 8px 0;
+    padding: 11px; }
+
+input, textarea {
+  background-color: #FFF;
+  border-color: #F7F7F7;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  color: #50514F;
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%; }
+  input[type="submit"], textarea[type="submit"] {
+    background-color: #247BA0;
+    color: #FFF;
+    transition: .2s ease-out; }
+    input[type="submit"]:hover, textarea[type="submit"]:hover {
+      background-color: #F25F5C;
+      color: #FFF;
+      cursor: pointer; }
+
+footer {
+  height: 12rem;
+  background-color: #50514F; }
+  footer div, footer a {
+    color: #FFF; }
+
+/*# sourceMappingURL=main.css.map */
+</style>
