@@ -3,7 +3,7 @@ date: 2018-01-07T19:02:14-08:00
 draft: false
 ---
 
-imm3rsively is the conference for people who suspect the future of education has already arrived.  we've been teaching adults for years and see a clear path to better learning involving a few key ingredients to effective, equitable adult education.
+imm3rsively is the conference for people who suspect the future of education has already arrived.  we've been teaching adults for years and see a clear path to better learning. it includes a few key ingredients that reliably lead to effective, equitable adult education.
 
 1) meaningful inner work
 
