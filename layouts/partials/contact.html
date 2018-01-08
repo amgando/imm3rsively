@@ -1,18 +1,17 @@
 <section class="contact" id="contact">
     <div class="container">
         <div class="row center-xs">
-            <div class="col-xs-12"><h1>register</h1></div>
+            <div class="col-xs-12"><h1>interested?</h1></div>
         </div>
         <form id="form-contact" action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
             <div class="row center-xs">
                 <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="name" required></div>
                 <div class="col-xs-12 col-sm-6"><input type="email" name="email" placeholder="email" required></div>
-                <div class="col-xs-12"><input type="text" name="_subject" placeholder="subject" required></div>
-                <div class="col-xs-12"><textarea name="message" placeholder="message" required></textarea></div>
+                <div class="col-xs-12"><textarea name="message" placeholder="comments, questions, suggestions" required></textarea></div>
                 <input type="text" name="_gotcha" style="display:none">
                 <input type="hidden" name="_next" value="/">
-                <div class="col-xs-6" id="form-submit"><input type="submit" value="send"></div>
-                <div class="col-xs-12" id="form-thankyou" style="display:none;">Thanks for your email!</div>
+                <div class="col-xs-6" id="form-submit"><input type="submit" value="register"></div>
+                <div class="col-xs-12" id="form-thankyou" style="display:none;">hope to see you there!</div>
             </div>
         </form>
     </div>
